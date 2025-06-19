@@ -1,0 +1,45 @@
+Hi, I’ve made a small HTML project that includes different basic elements of a website. I’ll explain what I used, why I used those things, and how everything works together in the pages.
+
+What I Used and Why:
+
+I started with <!DOCTYPE html> to tell the browser it's HTML5. Then came the usual structure — <html>, <head>, and <body>. Inside the <head>, I added a title so that it shows up in the tab, and a favicon just for fun (that little icon on the tab).
+
+I also used a <meta> tag to make sure the page fits well on phone and laptop screens. It just makes the site more responsive.
+
+For the visible part, I used headings from <h1> to <h6>, just to show the difference in size and importance. Then <p> for regular paragraphs like intro, address, etc.
+
+For lists, I used <ul> for things like my skills (which don’t need to be in order) and <ol> for education steps, because those follow a sequence.
+
+I also added an image using <img> and wrote a proper alt tag, which is helpful if the image doesn’t load or for screen readers.
+
+To move between pages, I used links with <a href="">. Some go to other pages I made (like contact.html and about.html), which are internal links. I also added an external link to my GitHub profile.
+
+To keep all the links together neatly, I used the <nav> tag, which is just for grouping navigation menus.
+
+There’s a table in my portfolio page too, which shows the projects I listed, along with a small description of each.
+
+The Contact Form:
+
+In the contact page, I made a form with different input types.
+
+For name, I used a text input and added a pattern so users can’t just type one letter.
+
+Email uses the email type, so it checks if the input looks like an actual email address.
+
+Phone uses the tel type. It shows the number pad on mobile, which is handy.
+
+The message box is a <textarea>, which is better for writing longer messages.
+
+For contact preferences, I used checkboxes so users can choose multiple options like Email, Phone, or Text. Radio buttons were perfect for the inquiry type, since people should only select one (like General, Business, or Support).
+
+Then there’s a submit button, a country dropdown with a few options, a date picker to select a date, and a range slider for age. I added the slider just to try something different — it's more interactive.
+
+How the Navigation Works:
+
+Each page has simple navigation links so the user can jump between About, Contact, and Portfolio easily. I made sure to use internal links for the other pages and an external one for GitHub. The <nav> tag keeps them together and helps with page structure too.
+
+Final Thoughts:
+
+The project covers most of the important HTML stuff — headings, forms, images, tables, links, and structure. It's simple but useful, and I learned a lot while building it.
+
+– Kushal Mondal

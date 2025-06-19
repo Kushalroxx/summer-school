@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/favicon.ico">
+    <title>Contact</title>
+</head>
+<body>
+    <!-- Create a contact form with the following fields:
+Name (text input)
+Email (email input)
+Phone number (tel input)
+Message (textarea)
+Checkboxes for preferred contact methods (Email, Phone, Text)
+Radio buttons for inquiry type (General, Business, Support)
+Submit button
+ -->
+    <h1>Contact</h1>
+    <form  action="submit">
+        <label for="name">Name:</label>
+        <input placeholder="Enter your name" pattern="[a-zA-Z0-9]{3,}" type="text" id="name" name="name"><br>
+        <label for="email">Email:</label>
+        <input placeholder="Enter your email" required type="email" id="email" name="email"><br>
+        <label for="phone">Phone:</label>
+        <input required max="10" placeholder="Enter your phone number" type="tel" id="phone" name="phone"><br>
+        <label for="message">Message:</label>
+        <textarea placeholder="Type your message here" id="message" name="message"></textarea><br>
+        <label for="contact-methods">Contact Methods:</label>
+        <input type="checkbox" id="email" name="contact-methods" value="email">
+        <label for="email">Email</label>
+        <input type="checkbox" id="phone" name="contact-methods" value="phone">
+        <label for="phone">Phone</label>
+        <input type="checkbox" id="text" name="contact-methods" value="text">
+        <label for="text">Text</label><br>
+        <label for="inquiry-type">Inquiry Type:</label>
+        <input type="radio" id="general" name="inquiry-type" value="general">
+        <label for="general">General</label>
+        <input type="radio" id="business" name="inquiry-type" value="business">
+        <label for="business">Business</label>
+        <input type="radio" id="support" name="inquiry-type" value="support">
+        <label for="support">Support</label><br>
+        <input type="submit" value="Submit">
+        <select name="country" id="">
+            <option value="india">India</option>
+            <option value="bangladesh">Bangladesh</option>
+            <option value="pakistan">Pakistan</option>
+        </select>
+        <label for="date">Select a date</label>
+        <input id="date" name="date" type="date">
+        <label for="age">Select your age</label>
+        <input type="range" id="age" name="age" min="0" max="100">
+    </form>
+</body>
+</html>
