@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: #e3e3e3;
 }
 body {
   font-family: sans-serif;
@@ -33,4 +34,9 @@ button {
 .error {
   color: red;
 }
+
+#weatherResult img {
+  margin-top: 5px;
+}
+
 
